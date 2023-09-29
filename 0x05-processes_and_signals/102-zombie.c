@@ -21,10 +21,10 @@ int infinite_while(void)
  */
 int main(void)
 {
-	int i;
+	int w;
 	pid_t zombie;
 
-	for (i = 0; i < 5; i++)
+	for (w = 0; w < 5; w++)
 	{
 		zombie = fork();
 		if (!zombie)
